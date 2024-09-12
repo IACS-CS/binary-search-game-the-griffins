@@ -1,8 +1,15 @@
 import "./style.css";
 import { TextInterface } from "text-interface";
 
+
+let binary = 0;
+
+
+// Get the element with id="app"
 let app = document.querySelector("#app");
+
 // Create a new "Text Interface"
+
 let ti = new TextInterface(app, " Family Guy Quiz");
 ti.output("I'll try to guess which family guy character you are");
 //if you type ryan, tedddy or aditiya automatically do "Greased up deaf guy and end game"
