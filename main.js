@@ -13,3 +13,4 @@ ti.output("I'll try to guess which family guy character you are");
 //
 //If you choose yes for male or female try to figure out a way to store the data while asking the other questions
 //Avalable answers Peter Brian Stewie Joe Quagmire Cleaveland Chris Adam west, Ladies Lois Ellie(dog) Meg Bonnie Trica Donna Babs 
+// find a way to store the saved yes or no answer to question Like if char is male or female store it as 1 for yes or 0 for no in he end the binary should be like 10010 whatever = brian not sure how to do that yet.
