@@ -46,6 +46,7 @@ ti.output("Im Kanye West")
   } else {
 ti.output("hey Peter (Joe Voice)")
   }
+  ti.clear();
 let characters = [
   "Ellie",
   "tricia",
