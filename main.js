@@ -1,16 +1,8 @@
 import "./style.css";
 import { TextInterface } from "text-interface";
-
-
-
-
-
-// Get the element with id="app"
 let app = document.querySelector("#app");
 var audio = new Audio("/candy.mp3")
 audio.loop = true 
-// Create a new "Text Interface"
-
 let ti = new TextInterface(app, " Family Guy Quiz");
 let keepplaying=true 
 while(keepplaying){
@@ -20,7 +12,6 @@ await ti.readText();
 audio.play()
 ti.clear();
 ti.output("Are you male!")
-
 if (await ti.readYesOrNo()) {
   result = result +8
   ti.output("Freakin Sweet");
