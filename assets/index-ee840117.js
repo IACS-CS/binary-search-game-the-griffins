@@ -155,6 +155,8 @@ audio.loop = true;
 // Create a new "Text Interface"
 
 let ti = new r(app, " Family Guy Quiz");
+let keepplaying=true; 
+while(keepplaying){
 let result = 0;
 ti.output("I'll try to guess which family guy character you are (hit return to begin)");
 await ti.readText();
@@ -212,3 +214,7 @@ let characters = [
 ];
 let answer = characters[result];
 ti.output(`You are ${answer}`);
+ti.clear();
+ti.output("Play again?");
+keepplaying=await ti.readYesOrNo();
+ti.loop;}
