@@ -151,6 +151,7 @@ class r {
 let app = document.querySelector("#app");
 var audio = new Audio("./candy.mp3");
 audio.loop = true; 
+//candy land audio credits to tobu check out his music
 let ti = new r(app, " Family Guy Quiz");
 let keepplaying=true; 
 while(keepplaying){
