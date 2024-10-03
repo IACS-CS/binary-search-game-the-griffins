@@ -1,7 +1,7 @@
 import "./style.css";
 import { TextInterface } from "text-interface";
 let app = document.querySelector("#app");
-var audio = new Audio("/candy.mp3")
+var audio = new Audio("./candy.mp3")
 audio.loop = true 
 let ti = new TextInterface(app, " Family Guy Quiz");
 let keepplaying=true 
