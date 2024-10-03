@@ -149,7 +149,7 @@ class r {
 }
 
 let app = document.querySelector("#app");
-var audio = new Audio("/candy.mp3");
+var audio = new Audio("./candy.mp3");
 audio.loop = true; 
 let ti = new r(app, " Family Guy Quiz");
 let keepplaying=true; 
